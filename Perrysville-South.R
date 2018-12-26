@@ -40,3 +40,5 @@ ggplot(data = sales_tbl1, aes(x = YEAR, y = avg_price, group = CLOSE_TO_SITE, co
 ggsave("plot", width = 5, height = 5, 
        units = "in", # other options c("in", "cm", "mm"), 
        dpi = 300)
+
+
